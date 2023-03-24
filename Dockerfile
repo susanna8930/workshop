@@ -8,4 +8,4 @@
 # COPY --from=builder /hello/hello /hello
 # ENTRYPOINT ["./hello"]
 
-FROM anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/nginx:1.14.1-8.6
+FROM nginx
