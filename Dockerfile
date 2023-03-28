@@ -8,4 +8,5 @@
 # COPY --from=builder /hello/hello /hello
 # ENTRYPOINT ["./hello"]
 
-FROM nginx
+FROM nginx:1.7.9
+
